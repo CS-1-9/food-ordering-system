@@ -5,7 +5,7 @@ app = Flask(__name__)
 db = mysql.connector.connect(
     host ="localhost",
     user ="root",
-    password ="#Chandan@25",
+    password ="root",
     database = "",
 )
 if __name__ == "__main__":
